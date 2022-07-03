@@ -1,0 +1,19 @@
+class a 
+{
+     a()
+    {
+        System .out .println("hii miunish");
+    }
+}
+class b extends a{
+    b()
+    {
+        System.out.println("hi shubham");
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+	b obj=new b();
+	}
+}
